@@ -1,0 +1,60 @@
+
+.header {
+    background-color: #131A22 ;
+    color: #12a4d9 ;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+    .p-3 {
+        max-width: 600px;
+    }
+}
+*/
+
+
+
+.form_style {
+  outline: none;
+  border: 2px solid #264143;
+  box-shadow: 3px 4px 0px 1px #E99F4C;
+  width: 290px;
+  padding: 12px 10px;
+  border-radius: 4px;
+  font-size: 25px;
+}
+
+.form_style:focus, .btn:focus {
+  transform: translateY(4px);
+  box-shadow: 1px 2px 0px 0px #E99F4C;
+}
+
+.btn {
+  padding: 15px;
+  margin: 10px 0px;
+  width: 290px;
+  font-size: 15px;
+  background: #DE5499;
+  border-radius: 10px;
+  font-weight: 800;
+  box-shadow: 3px 3px 0px 0px #E99F4C;
+}
+
+.btn:hover {
+
+  opacity: .9;
+}
+
+.link {
+  font-weight: 800;
+  color: #5c3c92;
+  padding: 5px;
+}
+
+label{
+
+    color: green;
+}

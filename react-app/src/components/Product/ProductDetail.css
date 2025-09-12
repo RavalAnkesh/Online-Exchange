@@ -1,0 +1,138 @@
+/* ProductDetail.css */
+
+.product-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.image-slider {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.slider-thumbnails {
+  display: flex;
+}
+
+.thumbnail {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.thumbnail img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  width: 50%;
+}
+
+.price-text {
+  color: #007bff; /* or any color you prefer */
+}
+
+button {
+  background-color: #28a745; /* or any color you prefer */
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.chats {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-message {
+  margin: 5px 0;
+}
+
+.self {
+  color: #007bff; /* or any color you prefer for your messages */
+}
+
+.other {
+  color: #28a745; /* or any color you prefer for other messages */
+}
+
+.form-control {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff; /* or any color you prefer */
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+/* Add the following CSS to your stylesheet or within a style tag */
+
+.chats {
+    max-width: 400px;
+    margin: auto;
+}
+
+.chat-message {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.self {
+    background-color: #4CAF50;
+    color: white;
+    text-align: right;
+}
+
+.other {
+    background-color: #f1f1f1;
+    text-align: left;
+}
+
+.form-control {
+    width: 80%;
+    margin-right: 8px;
+    padding: 8px;
+}
+
+.btn-primary {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.product-image {
+    
+}
+
+.main-image {
+    
+}

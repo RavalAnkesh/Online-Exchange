@@ -1,0 +1,242 @@
+/* Updated CSS for enhanced visual appeal */
+
+/* Global Styles */
+body {
+    font-family: 'Gilroy', sans-serif;
+    background: #EBF9F8; /* Light background color */
+    color: #152754; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Icons */
+.icons, .red-icons {
+    font-size: 24px;
+    height: 24px;
+    width: 24px;
+    color: #3498db; /* Blue color for icons */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.icons:hover {
+    color: #2980b9; /* Darker blue on hover */
+}
+
+.red-icons {
+    color: #e74c3c; /* Red color for specific icons */
+}
+
+
+
+/* Icons */
+.icons, .blue-icons {
+    font-size: 24px;
+    height: 24px;
+    width: 24px;
+    color: #3498db; /* Blue color for icons */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.icons:hover {
+    color: green; /* Darker blue on hover */
+}
+
+.blue-icons {
+    color: red; /* Red color for specific icons */
+}
+
+
+
+
+/* Container for Icons */
+.icon-con {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Price Text */
+.price-text {
+    color: #F70A2A; /* Dark blue text color */
+    font-size: 18px;
+}
+
+/* Clear Button */
+.clear-btn {
+    height: 36px;
+    background-color: #F70A2A;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.clear-btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+
+}
+.cardm {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 46.64%;
+  left: 50%;
+}
+
+.card {
+  position: absolute;
+  width: 250px;
+  height: 130px;
+  border-radius: 25px;
+  background: whitesmoke;
+  color: black;
+  z-index: 2;
+  transition: .4s ease-in-out;
+}
+
+.weather {
+  position: relative;
+  margin: 1em;
+}
+
+.main {
+  font-size: 2em;
+  position: relative;
+  top: -3em;
+  left: 4.3em;
+}
+
+.mainsub {
+  position: relative;
+  top: -10.2em;
+  left: 14em;
+  font-size: 0.6em;
+}
+
+.card2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 240px;
+  height: 130px;
+  border-radius: 35px;
+  background: white;
+  z-index: -1;
+  transition: .4s ease-in-out;
+}
+
+.card:hover {
+  background-color: #FFE87C;
+  cursor: pointer;
+}
+
+.card:hover + .card2 {
+  height: 300px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card:hover + .card2 .lower {
+  top: 20.2em;
+}
+
+.upper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  color: black;
+  left: 1.8em;
+  top: 0.5em;
+  gap: 4em;
+}
+
+.humiditytext {
+  position: relative;
+  left: 3.6em;
+  top: 2.7em;
+  font-size: 0.6em;
+}
+
+.airtext {
+  position: relative;
+  left: 3.8em;
+  top: 2.7em;
+  font-size: 0.6em;
+}
+
+.lower {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  text-align: center;
+  color: black;
+  left: 3em;
+  top: 1em;
+  margin-top: 0.7em;
+  font-size: 0.7em;
+  transition: .4s ease-in-out;
+}
+
+.aqi {
+  margin-right: 3.25em;
+}
+
+.realfeel {
+  margin-right: 1.8em;
+}
+
+.card3 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 30px;
+  top: 4.7em;
+  left: -2.4em;
+  font-size: 1.24em;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background: limegreen;
+  transition: .4s ease-in-out;
+}
+
+/* Additional styling for links */
+/* Base styles for links */
+a {
+    color: #040B05; /* Dark blue color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+    font-weight: bold; /* Make text bold */
+    font-size: 17px; /* Set font size */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+    background-color: white;; /* Light gray background color */
+}
+
+/* Hover styles for links */
+a:hover {
+    color: #ffffff; /* White text color on hover */
+    background-color: white; /* Dark blue background color on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
