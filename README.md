@@ -59,7 +59,7 @@ High-level structure of the repo:
 ```
 /react-app         # frontend code (React)
 /node-app          # backend code (Node.js / Express)
-/README.md         # this documentation
+/README.md         # this documentations
 ```
 
 Within each folder:
