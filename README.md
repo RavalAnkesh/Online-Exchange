@@ -1,7 +1,7 @@
 
 # Online-Exchange
 
-An application for exchanging items / services / currencies (customize depending on what you built).
+An application for exchanging items / services / currencies.
 
 ---
 
