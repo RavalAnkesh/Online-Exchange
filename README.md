@@ -21,7 +21,7 @@ An application for exchanging Products.
 
 ## About
 
-Online-Exchange is a full-stack web application consisting of a **React** frontend and a **Node.js** backend. It provides users with functionalities to list, browse, and exchange items / services / currencies (customize based on your domain). It emphasizes simplicity, responsiveness, and ease of use.
+Online-Exchange is a full-stack web application consisting of a **React** frontend and a **Node.js** backend. It provides users with functionalities to list, browse, and exchange items / services . It emphasizes simplicity, responsiveness, and ease of use.
 
 ---
 
