@@ -45,9 +45,9 @@ Here are some of the key features:
 | -------------- | -------------------------------------------------------------------------- |
 | Frontend       | React                                                                      |
 | Backend        | Node.js (Express)                                                          |
-| Database       | *(fill in: e.g. MongoDB / PostgreSQL / MySQL / etc.)*                      |
-| Authentication | *(JWT / sessions / OAuth … specify)*                                       |
-| Styling        | *(CSS / CSS-framework like Bootstrap or Material-UI / styled-components…)* |
+| Database       | MongoDB                                                                    |
+| Authentication | JWT                                                                        |
+| Styling        | CSS                                                                        |
 | Others         | *(any other tools, e.g. ESLint, Prettier, testing frameworks, etc.)*       |
 
 ---
