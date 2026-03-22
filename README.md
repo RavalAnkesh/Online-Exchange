@@ -1,7 +1,7 @@
 
 # Online-Exchange
 
-An application for exchanging items / services / currencies.
+An application for exchanging Products.
 
 ---
 
