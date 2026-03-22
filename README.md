@@ -192,6 +192,6 @@ Please make sure your code is well tested and documented.
 
 ## License
 
-Specify your license here (e.g. MIT License, Apache 2.0, etc.).
+MIT License, Apache 2.0
 
 
