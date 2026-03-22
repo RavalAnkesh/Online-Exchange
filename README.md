@@ -33,7 +33,7 @@ Here are some of the key features:
 * CRUD operations for exchange listings (create, read, update, delete)
 * Search / filter / sort listings
 * Responsive UI
-* RESTful API in backend
+* RESTfull API in backend
 * Cross-origin request handling (CORS)
 * Error handling and validation
 
