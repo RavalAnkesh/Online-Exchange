@@ -48,7 +48,6 @@ Here are some of the key features:
 | Database       | MongoDB                                                                    |
 | Authentication | JWT                                                                        |
 | Styling        | CSS                                                                        |
-| Others         | *(any other tools, e.g. ESLint, Prettier, testing frameworks, etc.)*       |
 
 ---
 
