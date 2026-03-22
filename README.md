@@ -160,7 +160,6 @@ After you have both frontend and backend set up:
   npm test
   ```
 
-*(Describe coverage or how to interpret results if applicable)*
 
 ---
 
