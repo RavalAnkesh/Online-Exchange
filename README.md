@@ -74,8 +74,8 @@ Follow these steps to set up the project locally.
 
 ### Prerequisites
 
-* Node.js and npm installed (version X.x or higher)
-* *(If using a database) Database server installed and running*
+* Node.js and npm installed 
+* Database server installed and running
 
 ### Installation
 
